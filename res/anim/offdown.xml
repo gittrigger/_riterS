@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/anticipate_interpolator"
+    android:shareInterpolator="true" >
+
+    <!--
+    <alpha
+        android:duration="870"
+        android:fillAfter="true"
+        android:fromAlpha="1.0"
+        android:startOffset="0"
+        android:toAlpha="1.0" />
+
+    <alpha
+        android:duration="4500"
+        android:fillAfter="true"
+        android:fromAlpha="1.0"
+        android:startOffset="0"
+        android:toAlpha="1.0" />
+
+    <scale
+        android:duration="880"
+        android:fillAfter="true"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:startOffset="2880"
+        android:toXScale="4.0"
+        android:toYScale="4.0" />
+    -->
+
+    <translate
+        android:duration="1370"
+        android:fillAfter="true"
+        android:fromXDelta="0"
+        android:fromYDelta="0"
+        android:toXDelta="0"
+        android:toYDelta="300%" />
+
+    <alpha
+        android:duration="2000"
+        android:fillAfter="true"
+        android:fromAlpha="1.0"
+        android:startOffset="740"
+        android:toAlpha="0.0" />
+
+    <scale
+        android:duration="1370"
+        android:fillAfter="true"
+        android:fillBefore="true"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="0.2"
+        android:toYScale="0.2" />
+
+    <set android:interpolator="@android:anim/accelerate_interpolator" >
+
+        <translate
+            android:duration="1370"
+            android:fillAfter="true"
+            android:fromXDelta="0"
+            android:fromYDelta="0"
+            android:startOffset="1371"
+            android:toXDelta="0"
+            android:toYDelta="400%" />
+
+        <scale
+            android:duration="1370"
+            android:fillAfter="true"
+            android:fillBefore="true"
+            android:fromXScale="1"
+            android:fromYScale="1"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:startOffset="1371"
+            android:toXScale="1"
+            android:toYScale="1" />
+    </set>
+
+    <!--
+    <set
+        android:repeatCount="infinite"
+        android:repeatMode="restart" >
+
+        <scale
+            android:duration="91370"
+            android:fillAfter="true"
+            android:fillBefore="true"
+            android:fromXScale="1"
+            android:fromYScale="1"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:startOffset="1370"
+            android:toXScale="1"
+            android:toYScale="1" />
+    </set>
+    -->
+
+</set>

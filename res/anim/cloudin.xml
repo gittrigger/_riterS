@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/overshoot_interpolator"
+    android:shareInterpolator="true" >
+
+    <alpha
+        android:duration="2370"
+        android:fillAfter="true"
+        android:fromAlpha="0.0"
+        android:startOffset="0"
+        android:toAlpha="1.0" />
+
+    <scale
+        android:duration="3870"
+        android:fillAfter="true"
+        android:fromXScale="4.0"
+        android:fromYScale="4.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="0.5"
+        android:toYScale="0.5" />
+
+    <translate
+        android:duration="2370"
+        android:fillAfter="true"
+        android:fromXDelta="400%"
+        android:fromYDelta="200%"
+        android:toXDelta="100%"
+        android:toYDelta="40%" />
+
+    <set android:interpolator="@android:anim/decelerate_interpolator" >
+
+        <translate
+            android:duration="2370"
+            android:fillAfter="true"
+            android:fromXDelta="0"
+            android:fromYDelta="0"
+            android:startOffset="1371"
+            android:toXDelta="-20%"
+            android:toYDelta="-40%" />
+
+        <scale
+            android:duration="3870"
+            android:fillAfter="true"
+            android:fromXScale="1.0"
+            android:fromYScale="1.0"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:startOffset="1671"
+            android:toXScale="0.5"
+            android:toYScale="0.5" />
+
+        <set android:interpolator="@android:anim/overshoot_interpolator" >
+
+            <translate
+                android:duration="2370"
+                android:fillAfter="true"
+                android:fromXDelta="0"
+                android:fromYDelta="0"
+                android:startOffset="5371"
+                android:toXDelta="60%"
+                android:toYDelta="-40%" />
+
+            <scale
+                android:duration="1870"
+                android:fillAfter="true"
+                android:fromXScale="1.0"
+                android:fromYScale="1.0"
+                android:pivotX="50%"
+                android:pivotY="50%"
+                android:startOffset="4671"
+                android:toXScale="2.0"
+                android:toYScale="2.0" />
+
+            <set android:interpolator="@android:anim/decelerate_interpolator" >
+
+                <translate
+                    android:duration="2370"
+                    android:fillAfter="true"
+                    android:fromXDelta="0"
+                    android:fromYDelta="0"
+                    android:startOffset="6371"
+                    android:toXDelta="-140%"
+                    android:toYDelta="40%" />
+
+                <scale
+                    android:duration="2870"
+                    android:fillAfter="true"
+                    android:fromXScale="1.0"
+                    android:fromYScale="1.0"
+                    android:pivotX="50%"
+                    android:pivotY="50%"
+                    android:startOffset="9671"
+                    android:toXScale="0.25"
+                    android:toYScale="0.25" />
+
+                <set android:interpolator="@android:anim/decelerate_interpolator" >
+
+                    <scale
+                        android:duration="4870"
+                        android:fillAfter="true"
+                        android:fromXScale="1.0"
+                        android:fromYScale="1.0"
+                        android:pivotX="50%"
+                        android:pivotY="50%"
+                        android:startOffset="11671"
+                        android:toXScale="8.0"
+                        android:toYScale="8.0" />
+
+                    <translate
+                        android:duration="2370"
+                        android:fillAfter="true"
+                        android:fromXDelta="0"
+                        android:fromYDelta="0"
+                        android:startOffset="12371"
+                        android:toXDelta="-100%"
+                        android:toYDelta="40%" />
+
+                    <set android:interpolator="@android:anim/decelerate_interpolator" >
+
+                        <translate
+                            android:duration="1370"
+                            android:fillAfter="true"
+                            android:fromXDelta="0"
+                            android:fromYDelta="0"
+                            android:startOffset="15371"
+                            android:toXDelta="-20%"
+                            android:toYDelta="40%" />
+                    </set>
+                </set>
+            </set>
+        </set>
+    </set>
+    <!--
+    <alpha
+        android:duration="870"
+        android:fillAfter="true"
+        android:fromAlpha="1.0"
+        android:startOffset="0"
+        android:toAlpha="1.0" />
+
+    <alpha
+        android:duration="4500"
+        android:fillAfter="true"
+        android:fromAlpha="1.0"
+        android:startOffset="0"
+        android:toAlpha="1.0" />
+
+    <scale
+        android:duration="880"
+        android:fillAfter="true"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:startOffset="2880"
+        android:toXScale="4.0"
+        android:toYScale="4.0" />
+    -->
+
+</set>

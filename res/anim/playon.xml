@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/bounce_interpolator"
+    android:shareInterpolator="true" >
+
+    <alpha
+        android:duration="999"
+        android:fillAfter="true"
+        android:fromAlpha="1.0"
+        android:toAlpha="0.5" />
+
+    <scale
+        android:duration="9999"
+        android:fillAfter="true"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:pivotX="20%"
+        android:pivotY="50%"
+        android:toXScale="0.2"
+        android:toYScale="0.2" />
+
+    <set
+        android:interpolator="@android:anim/linear_interpolator"
+        android:shareInterpolator="true" >
+
+        <alpha
+            android:duration="999"
+            android:fillAfter="true"
+            android:fromAlpha="0.5"
+            android:startOffset="10010"
+            android:toAlpha="2.0" />
+
+        <scale
+            android:duration="999"
+            android:fillAfter="true"
+            android:fromXScale="1.0"
+            android:fromYScale="1.0"
+            android:pivotX="20%"
+            android:pivotY="50%"
+            android:startOffset="10010"
+            android:toXScale="5.0"
+            android:toYScale="5.0" />
+
+        <!--
+            <set android:interpolator="@android:anim/decelerate_interpolator" >
+
+            <alpha
+                android:duration="999"
+                android:fillAfter="true"
+                android:fromAlpha="0.5"
+                android:startOffset="2000"
+                android:toAlpha="0.1" />
+
+            <set android:interpolator="@android:anim/decelerate_interpolator" >
+
+                <alpha
+                    android:duration="999"
+                    android:fillAfter="true"
+                    android:fromAlpha="0.1"
+                    android:startOffset="3000"
+                    android:toAlpha="1.0" />
+            </set>
+        </set>
+        -->
+    </set>
+
+    <!--
+         <translate
+        android:duration="1370"
+        android:fillAfter="true"
+        android:fromXDelta="0"
+        android:fromYDelta="0"
+        android:toXDelta="-200%"
+        android:toYDelta="0" />
+
+    <alpha
+        android:duration="870"
+        android:fillAfter="true"
+        android:fromAlpha="1.0"
+        android:startOffset="0"
+        android:toAlpha="1.0" />
+
+    <alpha
+        android:duration="4500"
+        android:fillAfter="true"
+        android:fromAlpha="1.0"
+        android:startOffset="0"
+        android:toAlpha="1.0" />
+
+    <scale
+        android:duration="880"
+        android:fillAfter="true"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:startOffset="2880"
+        android:toXScale="4.0"
+        android:toYScale="4.0" />
+    -->
+    <!--
+    <scale
+        android:duration="99"
+        android:fillAfter="true"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="2.0"
+        android:toYScale="2.0" />
+
+    <set >
+
+        <scale
+            android:duration="99"
+            android:fillAfter="true"
+            android:fromXScale="1.0"
+            android:fromYScale="1.0"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:startOffset="200"
+            android:toXScale="2.0"
+            android:toYScale="2.0" />
+
+        <set
+            android:interpolator="@android:anim/accelerate_interpolator"
+            android:shareInterpolator="false" >
+
+            <scale
+                android:duration="99"
+                android:fillAfter="true"
+                android:fromXScale="1.0"
+                android:fromYScale="1.0"
+                android:pivotX="50%"
+                android:pivotY="50%"
+                android:startOffset="400"
+                android:toXScale="0.25"
+                android:toYScale="0.25" />
+
+            <alpha
+                android:duration="99"
+                android:fillAfter="true"
+                android:fromAlpha="1.0"
+                android:startOffset="500"
+                android:toAlpha="0.0" />
+        </set>
+    </set>
+    -->
+
+</set>

@@ -1,0 +1,153 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8sp"
+    android:padding="0sp" >
+
+    <LinearLayout
+        android:id="@+id/listrow_alphacolumnb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" > <!-- :0 -->
+
+        <LinearLayout
+            android:id="@+id/listrow_alphacolumn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" > <!-- :0:0 -->
+
+            <ImageView
+                android:id="@+id/imagea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="matrix"
+                android:src="@drawable/ic_launcher" /> <!-- :0:0:0 -->
+
+            <ImageView
+                android:id="@+id/imageb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="matrix"
+                android:src="@drawable/ic_launcher" /> <!-- :0:0:0 -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/listrow_alphacolumn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" > <!-- :0:1 -->
+
+            <TextView
+                android:id="@+id/fielda"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8sp"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="#EFF0F0F0"
+                android:textSize="16sp"
+                android:visibility="invisible" /> <!-- :0:1:0 -->
+
+            <TextView
+                android:id="@+id/fieldb"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8px"
+                android:ellipsize="middle"
+                android:lines="1"
+                android:paddingTop="1px"
+                android:text=""
+                android:textColor="#Fff5FfFf"
+                android:textSize="16sp"
+                android:visibility="invisible" /> <!-- :0:1:1 -->
+
+            <TextView
+                android:id="@+id/fieldd"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3px"
+                android:ellipsize="none"
+                android:lines="1"
+                android:text=""
+                android:textColor="#CF909090"
+                android:textSize="16sp"
+                android:visibility="gone" /> <!-- :0:1:2 -->
+
+            <TextView
+                android:id="@+id/fieldc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3px"
+                android:ellipsize="none"
+                android:lines="1"
+                android:text=""
+                android:textColor="#CF909090"
+                android:textSize="16sp"
+                android:visibility="gone" /> <!-- :0:1:3 -->
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/listrow_alphacolumn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal" > <!-- :1 -->
+
+        <LinearLayout
+            android:id="@+id/listrow_alphacolumn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal" > <!-- :1:0 -->
+
+            <ImageView
+                android:id="@+id/switcha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="matrix"
+                android:src="@drawable/ic_launcher" /> <!-- :1:0:0 -->
+
+            <ImageView
+                android:id="@+id/switchb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="matrix"
+                android:src="@drawable/ic_launcher" /> <!-- :1:0:1 -->
+        </LinearLayout>
+
+        <!--
+             <ImageView
+            android:id="@+id/superstart"
+            android:layout_width="48sp"
+            android:layout_height="48sp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/btn_rating_star_off_normal" />
+        -->
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fieldid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="3px"
+        android:gravity="right"
+        android:lines="1"
+        android:paddingTop="1px"
+        android:text=""
+        android:textColor="#a0f0f0f0"
+        android:textSize="16sp"
+        android:visibility="gone" /> <!-- :2 -->
+
+</RelativeLayout>

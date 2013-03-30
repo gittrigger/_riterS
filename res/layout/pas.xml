@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pbc"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FF1f8ff8"
+    android:isScrollContainer="true" >
+
+    <RelativeLayout
+        android:id="@+id/pbaa"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#4F1f8ff8" >
+
+        <RelativeLayout
+            android:id="@+id/pb5"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pbbcn"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#0020A070" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pbrus"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pbbc5"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:id="@+id/alls"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="visible" >
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
